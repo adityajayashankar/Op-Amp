@@ -1,7 +1,7 @@
-# Low Power Op Amp
+# LOW POWER OP AMP
 This file consists of Circuit Design and results of 2 stage Low Power Op Amp done on 180nm technology using SCL180.<br>
 This Op Amp can be used for Low frequency, Good noise rejection and Low power circuits.<br>
-# DESIGN PARAMETERS<br>
+# DESIGN PARAMETERS <br>
 
 | SPECIFIC PARAMETERS        | DESIGNED VALUES |
 |----------------------------|----------------|
@@ -16,7 +16,7 @@ This Op Amp can be used for Low frequency, Good noise rejection and Low power ci
 | Load Capacitance           | 120 pF        |
 | Slew Rate                  | 0.67 V/µs      |
 
-# Working Of Op Amp 
+# WORKING OF OPAMP
 This is a two-stage operational amplifier (opamp) with a differential input pair, a gain stage(common source stage), and a compensation capacitor for stability.
 
 1. Power Supply:<br>
