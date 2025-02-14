@@ -1,0 +1,35 @@
+Op Amp Description 
+This is a two-stage operational amplifier (opamp) with a differential input pair, a gain stage(common source stage), and a compensation capacitor for stability.
+
+1. Power Supply:
+-> We are using dual power supply ,this means the op amp operates with a 3.6 V supply range.
+
+2.  Differential Input Stage:
+i . M1 (0.54/0.2)​ and M2 (0.54/0.2):
+-> These are NMOS transistors forming the differential input pair.
+-> They receive differential input signals (Vin+ and Vin−​).
+-> The current source M8​ provides the tail current, which splits between M1and M2
+
+ii. M3 (2.7/0.5) and M4 (2.7/0.5):
+-> These PMOS transistors act as active load current mirrors.
+-> They ensure proper differential-to-single-ended conversion.
+
+iii. Gain for this stage  : Av1 ​= gm1​⋅(ro3​∣∣ro1​) = 40 dB or 100 V/V
+
+3. Gain Stage :
+-> M5 (0.81/ 0.18)   ​: Acts as a current source to bias the second stage.
+-> M6 (10.92/ 0.18) :
+->This PMOS transistor provides gain in the second stage.
+-> It drives the output Vout​ while being loaded by M7​. 
+
+ Gain for this stage : Av2​ = gm6​⋅(ro6​∣∣ro7​) = 30 dB or 30 V/V
+
+4. Output Stage :
+-> M7 (2.52/ 0.18): Acts are common source amplifier providing additional gain and drives the load.
+
+5.  Compensation :
+-> CL = 10pF : Load capacitance 
+-> Cc = 3pF  : Miller compensation capacitor, used to ensure stability and avoid oscillations.
+
+6.  Why we use this particular opamp?
+This two-stage CMOS operational amplifier is chosen for its balance between high gain and stable frequency. It is widely used in low-power, low-voltage applications.
