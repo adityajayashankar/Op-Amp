@@ -50,4 +50,4 @@ ii. M6 (10.92/ 0.18)  :<br>
 - Cc = 3pF  : Miller compensation capacitor, used to ensure stability and avoid oscillations.<br>
 
 **6. Why we use this particular opamp?** <br>
-This two-stage CMOS operational amplifier is chosen for its balance between high gain and stable frequency. It is widely used in low-power, low-voltage applications.<br>
+This two-stage CMOS operational amplifier is chosen for its balance between high gain and stable frequency.<br>It is widely used in low-power, low-voltage applications.<br>
